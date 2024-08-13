@@ -1,1 +1,2 @@
+// inserts to a database
 my_db.school.insertOne({name: "Holberton school"})
