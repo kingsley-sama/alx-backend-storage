@@ -1,1 +1,2 @@
+// counts all values in a database
 my_db.school.count()

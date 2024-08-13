@@ -1,2 +1,2 @@
-
+// updates all occurences of a value in a database
 my_db.school.my_db.school.updateAll({name:"Holberton school"}, {$set: {name: "Holberton school"}})
