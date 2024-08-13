@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import pymongo
 from pymongo import MongoClient
 """inserts a file into a databases"""
 
