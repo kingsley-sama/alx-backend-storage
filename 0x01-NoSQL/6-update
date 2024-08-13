@@ -1,0 +1,2 @@
+
+my_db.school.my_db.school.updateAll({name:"Holberton school"}, {$set: {name: "Holberton school"}})
