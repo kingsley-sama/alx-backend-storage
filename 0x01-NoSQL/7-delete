@@ -1,2 +1,2 @@
 // deletes a particular value from a database
-my_db.school.my_db.school.deleteMany({name: "Holberton School"})
+db.school.my_db.school.deleteMany({name: "Holberton School"})
