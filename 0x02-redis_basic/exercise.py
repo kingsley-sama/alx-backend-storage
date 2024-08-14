@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module defines the exercise.py class."""
 import redis
 import uuid
@@ -9,6 +9,7 @@ class Cache:
     """Create a store method that takes a data argument and returns a string"""
     def __init__(self):
         self._redis = redis.Redis()
+        self._redis.flushdb()
 
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """store method that takes a data argument and returns a string"""
