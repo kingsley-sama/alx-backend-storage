@@ -1,2 +1,2 @@
 // deletes a particular value from a database
-db.school.deleteMany({name: "Holberton School"})
+db.school.deleteMany({ name: "Holberton school" });
